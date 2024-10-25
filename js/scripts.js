@@ -381,7 +381,6 @@ Portfolio
     "use strict";
     
     var gridContainer = $('#grid-container-fullwidth'),
-        filtersContainer = $('#filters-container-fullwidth'),
         wrap, filtersCallback;
 
     gridContainer.cubeportfolio({

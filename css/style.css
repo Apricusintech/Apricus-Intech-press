@@ -4277,4 +4277,60 @@ margin-left: -9px;
        
   }
 
-  
+  /* Wrapper for isolation */
+.portfolio-wrapper {
+   padding: 20px;
+   background-color: #f8f8f8; /* Optional background to make the section stand out */
+}
+
+/* Section styling */
+.portfolio-wrapper .unique-image-section {
+   display: flex;
+   justify-content: center;
+}
+
+/* Container styling */
+.portfolio-wrapper .unique-image-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 8px;
+   width: 100%;
+   max-width: 1200px;
+}
+
+/* Image item styling */
+.portfolio-wrapper .unique-image-item {
+   width: calc(20% - 8px);
+   overflow: hidden;
+   transition: transform 0.3s ease;
+   box-sizing: border-box;
+}
+
+.portfolio-wrapper .unique-image-item:hover {
+   transform: scale(1.05);
+}
+
+.portfolio-wrapper .unique-image {
+   width: 100%;
+   height: auto;
+   transition: transform 0.3s ease;
+}
+
+.portfolio-wrapper .unique-image-item:hover .unique-image {
+   transform: scale(1.1);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+   .portfolio-wrapper .unique-image-item {
+      width: calc(50% - 8px);
+   }
+}
+
+@media (max-width: 480px) {
+   .portfolio-wrapper .unique-image-item {
+      width: 100%;
+   }
+}
+

@@ -3857,8 +3857,8 @@ pre {
 .MYTEXT{
     color: #121212;
     font-size: medium;
-    margin-left: 18px;
-}
+margin-left: -9px;
+    margin-right: -2pc;}
 
 .advantages-heading {
     font-family: 'Arial', sans-serif;  /* Choose a professional font */
